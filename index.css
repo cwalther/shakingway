@@ -1,0 +1,87 @@
+td.col1 {
+    padding: 0 80px 0 0;
+    min-width: 200px;
+}
+
+td.col2 {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.intro {
+    text-align: left;
+    max-width: 800px;
+    display: inline-block;
+}
+
+.page-outer {
+    position: relative;
+    background: #fff2d0;
+    display: inline-block;
+    text-align: left;
+}
+
+.page-inner {
+    display: inline-block;
+    padding: 50px;
+    margin-right: -120px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.dogear {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 0;
+    border-left: 60px solid #eee2c0;
+    border-top: 50px solid #ffffff;
+}
+
+.desk {
+}
+
+button {
+    margin: 20px;
+    font-size: 16px;
+    background: #eeeeee;
+    background-image: linear-gradient(#ffffff, #eeeeee);
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    padding: 6px 12px;
+    outline: none;
+}
+
+button:active {
+    background-image: linear-gradient(#cccccc, #eeeeee);
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1) inset;
+}
+
+button:focus {
+    box-shadow: 0 0 1px 1px rgba(0, 128, 255, 0.5);
+}
+
+#status {
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 16px;
+    padding: 6px 12px;
+}
+
+.success {
+    background: #ccee99;
+    color: #006600;
+}
+
+.failure {
+    background: #ffbb99;
+    color: #660000;
+}

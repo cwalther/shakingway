@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shakingway</title>
+    <script src="ml5.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="intro">
+    <h1>The Shakingway Test</h1>
+    <p>Ernest Hemingway and William Shakespeare have collaborated on writing a novel, each of them writing one or more lines, then passing the manuscript on to the other. Your task is to figure out which lines have been written by whom. Only those getting it right will be deemed worthy of entering!</p>
+</div>
+<div class="desk">
+    <button id="btnGenerate">Regenerate</button>
+    <form id="form">
+        <div class="page-outer">
+            <div class="dogear"></div>
+            <div class="page-inner">
+                <table>
+                    <thead>
+                    <tr>
+                        <td class="col1"></td>
+                        <td class="col2">H</td>
+                        <td class="col2">S</td>
+                    </tr>
+                    </thead>
+                    <tbody id="lines"></tbody>
+                </table>
+                <div id="progress">…</div>
+            </div>
+        </div>
+    </form>
+    <button id="btnGo" class="hidden">Go</button>
+    <div><span id="status"></span></div>
+</div>
+</body>
+</html>
