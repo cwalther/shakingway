@@ -19,5 +19,6 @@ Obviously the current implementation is not suitable for secure authentication, 
 
 ## Author
 
-Christian Walther <cwalther@gmx.ch>  
-2018-07-01
+Developed by Christian Walther <cwalther@gmx.ch> during a workshop on [Machine Learning for Creatives](https://muda.co/stream/supsiws.php) by [Matteo Loglio](https://matlo.me), 2018-07-01.
+
+[Public Domain](https://creativecommons.org/publicdomain/zero/1.0/): To the extent possible under law, the author has waived all copyright and related or neighboring rights to this work.

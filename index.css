@@ -49,6 +49,11 @@ body {
 .desk {
 }
 
+.footer {
+    font-size: 12px;
+    margin-top: 60px;
+}
+
 button {
     margin: 20px;
     font-size: 16px;
